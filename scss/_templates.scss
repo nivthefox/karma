@@ -1,0 +1,7 @@
+.template {
+    h1 { font-weight: bold; font-size: 1.2em; }
+    label { font-weight: bold; width: 100px; text-align: right; }
+    input { max-width: 300px; }
+    section { padding: 10px 0; }
+    section + section { border-top: 1px solid #EEE; }
+}

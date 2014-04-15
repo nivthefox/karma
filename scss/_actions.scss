@@ -1,0 +1,16 @@
+.actions {
+    padding-left: 10px;
+
+    a, input {
+        display: inline-block;
+        height: 36px;
+        width: 36px;
+    }
+
+    input {
+        border: none;
+    }
+
+    .armory { background-image: image-url('icon/action_armory.png'); }
+    .attendance { background-color: transparent; background-image: image-url('icon/action_attendance.png' ); }
+}

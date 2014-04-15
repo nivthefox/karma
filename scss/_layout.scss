@@ -1,0 +1,56 @@
+#main {
+    margin: 0 auto;
+    width: 800px;
+
+    thead {
+        font-weight: bold;
+        text-align: left;
+        height: 36px;
+
+        th { padding: 10px 0; }
+    }
+
+    tbody {
+        border: 1px solid #CCC;
+
+        td {
+            padding: 0 10px;
+            vertical-align: middle;
+        }
+
+        tr {
+            &:nth-child(odd) {
+                background-color: #EEE;
+            }
+        }
+
+        .actions {
+            text-align: right;
+        }
+
+        .karma {
+            font-weight: bold;
+            span:hover {
+                color: #00F;
+                cursor: pointer;
+            }
+        }
+    }
+
+    tfoot {
+        td { padding: 10px; }
+
+        .check-all {
+            input {
+                margin-right: 10px;
+            }
+        }
+
+        .actions {
+            text-align: right;
+        }
+    }
+
+    .select { width : 18px; }
+    .role, .race, .class { padding: 0; width: 36px; }
+}

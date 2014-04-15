@@ -1,0 +1,9 @@
+@import "meyerweb/reset";
+
+*, *:before, *:after {
+    @include box-sizing(border-box);
+}
+
+em {
+    font-style: italic;
+}
